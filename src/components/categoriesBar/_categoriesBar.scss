@@ -1,0 +1,42 @@
+@import "../../_base.scss";
+
+.categoriesBar{
+    padding: 0.5rem 0;
+    font-size: 0.8rem;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 0rem;
+    &::-webkit-scrollbar {
+      display: none; //chrome
+    }
+    scrollbar-width:none;
+    span {
+        margin-right: 1rem;
+        padding: 0.5rem;
+  
+        white-space: nowrap;
+        border: 1.5px solid $text-color;
+        border-radius: 999px;
+  
+        background: transparent;
+        color: $text-color;
+  
+        font-weight: 500;
+  
+        cursor: pointer;
+        transition: all 150ms;
+  
+        &:focus {
+           outline: none;
+        }
+  
+        &:hover {
+           background-color: #374a59;
+        }
+        &.active {
+           background-color: #606060;
+           color: #fff;
+           border-color: $border-color;
+        }
+     }
+}
