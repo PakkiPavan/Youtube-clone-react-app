@@ -17,6 +17,16 @@
       font-size: 1rem;
       padding: 0.4rem;
       border: none;
+      &.btn-gray{
+         background-color:gray;
+     }
+     &:hover{
+         color:#fff;
+     }
+     &:focus{
+         border:none;
+         outline: none;
+     }
    }
 }
 

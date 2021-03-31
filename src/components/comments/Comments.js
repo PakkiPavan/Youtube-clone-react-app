@@ -10,6 +10,11 @@ const Comments = ({videoId,totalComments}) => {
     },[videoId,dispatch]);
     const [text,setText] = useState("");
     const comments = useSelector(state=>state.commentList.comments);
+    let photoURL = null;
+    let temp = useSelector(state=>state.auth);
+    if(temp && temp.user && temp.user.photoURL){
+        photoURL=temp.user.photoURL;
+    }
     const _comments = comments?.map(comment=>comment.snippet.topLevelComment.snippet);
     const handleComment=(event)=>{
         event.preventDefault();
@@ -24,7 +29,7 @@ const Comments = ({videoId,totalComments}) => {
             <p>{totalComments} comments</p>
             <div className="comments__form d-flex w-100 my-2">
                 <img
-                    src='https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png'
+                    src={photoURL}
                     alt='avatar'
                     className="rounded-circle mr-3"
                 />

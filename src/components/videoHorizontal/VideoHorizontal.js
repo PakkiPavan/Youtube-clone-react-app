@@ -67,7 +67,6 @@ const VideoHorizontal = ({video,searchScreen,subScreen}) => {
 
     return (
         <Row className="videoHorizontal m-1 py-2 align-items-center" onClick={handleClick}>
-            {/* TODO: REFACTOR GRID */}
             <Col xs={6} md={searchScreen||subScreen ? 4 : 6}
                 className="videoHorizontal__left"
             >

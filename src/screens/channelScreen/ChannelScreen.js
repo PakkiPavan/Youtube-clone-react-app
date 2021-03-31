@@ -18,7 +18,7 @@ const ChannelScreen = () => {
     },[dispatch,channelId]);
     const {videos,loading} = useSelector(state=>state.channelVideos);
     const {snippet,statistics} = useSelector(state=>state.channelDetails.channel);
-
+    const subscriptionStatus = useSelector(state=>state.channelDetails.subscriptionStatus);
 
     return (
         <>
@@ -35,7 +35,9 @@ const ChannelScreen = () => {
                 </div>
                 </div>
 
-                <button>Subscribe</button>
+                <button className={`border-0 p-2 m-2 btn ${subscriptionStatus && 'btn-gray'}`}>
+                    {subscriptionStatus ? 'Subscribed' : 'Subscribe'}
+                </button>
             </div>
             <Container>
                 <Row className="mt-2">
