@@ -2,8 +2,8 @@
 
 [LIVE DEMO](https://utube-clone-using-react.web.app/)
 
-![alt text](https://github.com/PakkiPavan/Portfolio/blob/main/Demo/Youtube-1.JPG?raw=true)
-![alt text](https://github.com/PakkiPavan/Portfolio/blob/main/Demo/Youtube-2.JPG?raw=true)
+![alt text](https://github.com/PakkiPavan/Youtube-clone-react-app/blob/main/Demo/Youtube-1.JPG?raw=true)
+![alt text](https://github.com/PakkiPavan/Youtube-clone-react-app/blob/main/Demo/Youtube-2.JPG?raw=true)
 
 
 # Technologies used
