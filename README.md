@@ -1,8 +1,23 @@
-# Getting Started with Create React App
+# Youtube Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[LIVE DEMO](https://utube-clone-using-react.web.app/)
 
-## Available Scripts
+![alt text](https://github.com/PakkiPavan/Portfolio/blob/main/Demo/Youtube-1.JPG?raw=true)
+![alt text](https://github.com/PakkiPavan/Portfolio/blob/main/Demo/Youtube-2.JPG?raw=true)
+
+
+# Technologies used
+* React JS
+* Redux for state management
+* Bootstrap
+* [React icons](https://react-icons.github.io/react-icons) for icons
+* [React Infinite Scroll Component](https://www.npmjs.com/package/react-infinite-scroll-component) for infinite scroll
+* [React Lazy Load Image Component](https://www.npmjs.com/package/react-lazy-load-image-component) to lazy load video thumbnails
+* [React Helmet](https://www.npmjs.com/package/react-helmet) for dynamic Document title
+* [Framer Motion](https://www.npmjs.com/package/framer-motion) for Animations
+* Firebase for Hosting
+
+<!-- ## Available Scripts
 
 In the project directory, you can run:
 
@@ -67,4 +82,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
